@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSpring } from 'react-spring';
-import { Container, Section, Title, ProfilePic, IconContainer, IconLink } from '../styles'; // Import styled-components for icons
-import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Import icons from react-icons
+import { Container, Section, Title, ProfilePic, IconContainer, IconLink } from '../styles';
+import { FaLinkedin, FaGithub } from 'react-icons/fa'; 
 
 const Header = () => {
   const props = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
