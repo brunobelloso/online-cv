@@ -9,7 +9,8 @@ const skills = [
   { name: 'SQL', emoji: '🐬' },
   { name: 'Node.js', emoji: '🌐' },
   { name: 'Express.js', emoji: '🚂' },
-  { name: 'React.js', emoji: '⚛️' }
+  { name: 'React.js', emoji: '⚛️' },
+  { name: 'Que le paso a brunito', emoji: '🐸' }
 ];
 
 const Skills = () => {
