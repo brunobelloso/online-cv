@@ -15,7 +15,7 @@ const Education = () => {
       credentialUrl: "https://api.educacionit.com/pdf/certificados/bruno-belloso-705178/59791",
     },
     {
-      title: "Data Base Management Fundamentals & SQL",
+      title: "Introduction to Databases & SQL",
       imgUrl: "/educacionit_logo.png",
       alt: "EducacionIT Logo",
       issuedDate: "Feb 2022",
