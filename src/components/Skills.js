@@ -1,15 +1,16 @@
-import React from 'react';
-import { useSpring } from '@react-spring/web';
-import { Section, SubTitle, SkillList, SkillItem } from '../styles';
+import React from "react";
+import { useSpring } from "@react-spring/web";
+import { Section, SubTitle, SkillList, SkillItem } from "../styles";
 
 const skills = [
-  { name: 'JavaScript', emoji: '🟨' },
-  { name: 'Python', emoji: '🐍' },
-  { name: 'MongoDB', emoji: '🍃' },
-  { name: 'SQL', emoji: '🐬' },
-  { name: 'Node.js', emoji: '🌐' },
-  { name: 'Express.js', emoji: '🚂' },
-  { name: 'React.js', emoji: '⚛️' }
+  { name: "JavaScript", emoji: "🟨" },
+  { name: "Python", emoji: "🐍" },
+  { name: "MongoDB", emoji: "🍃" },
+  { name: "SQL", emoji: "🐬" },
+  { name: "Node.js", emoji: "🌐" },
+  { name: "Express.js", emoji: "🚂" },
+  { name: "React.js", emoji: "⚛️" },
+  { name: "Git", emoji: "🔧" },
 ];
 
 const Skills = () => {
