@@ -26,48 +26,34 @@ const Experience = () => {
             />
             <TextContainer>
               <Text>
-                <strong>Data Entry Operator, Administrative Assistant</strong>
+                <strong>Data Entry Specialist</strong>
               </Text>
             </TextContainer>
           </ItemHeader>
           <Text>
             Farmacia & Laboratorio Vip · Full-time
             <br />
-            Jan 2020 - Present
+            Jan 2020 - Present · 4 yrs 7 mos
             <br />
-            Buenos Aires, Argentina · On-site
+            Provincia de Buenos Aires, Argentina · On-site
           </Text>
           <Text>
             <strong>Key Responsibilities:</strong>
             <ul>
+              <li>Manage production orders by processing item information.</li>
+              <li>Capture data from the ERP system into spreadsheets.</li>
               <li>
-                Manage production orders by processing item information from
-                different laboratories.
+                Record essential information, including doctor name, item
+                quantity, drug name and dose, patient details, elaboration, and
+                expiry dates.
               </li>
               <li>
-                Print labels for items assigned to a specific laboratory,
-                ensuring accurate data capture.
+                Maintain an archive of past production orders for audits or
+                quality control reviews.
               </li>
               <li>
-                Extract and transfer item data to new spreadsheets, maintaining
-                identification with production order numbers.
-              </li>
-              <li>
-                Record detailed information in spreadsheets, including doctor
-                name, item quantity, drug and dosage, patient details,
-                elaboration date, and expiry date.
-              </li>
-              <li>
-                Configure spreadsheets to output data in JavaScript object
-                format for seamless integration with label printing programs.
-              </li>
-              <li>
-                Generate HTML documents from JavaScript data for efficient and
-                accurate label printing.
-              </li>
-              <li>
-                Utilize dynamic tables to monitor production numbers and track
-                the quantity of labels produced.
+                Monitor and track label production through dynamic tables and
+                spreadsheets.
               </li>
             </ul>
           </Text>
@@ -75,22 +61,16 @@ const Experience = () => {
             <strong>Achievements:</strong>
             <ul>
               <li>
-                Developed a method to automate data extraction and transfer from
-                the ERP system to spreadsheets, reducing manual copy-paste
-                efforts and saving significant time.
+                Automated data extraction and transfer, significantly reducing
+                manual efforts.
               </li>
               <li>
-                Improved error detection and correction through visually
-                enhanced data presentation in spreadsheets.
+                Enhanced error detection and correction through improved data
+                presentation.
               </li>
               <li>
-                Implemented dynamic tables combining formulas to automate label
-                counting for each production order.
-              </li>
-              <li>
-                Streamlined label printing process by generating data in
-                JavaScript object format, which is converted to HTML for
-                printing.
+                Integrated JavaScript and HTML with spreadsheets to automate
+                document generation for label printing.
               </li>
             </ul>
           </Text>
