@@ -11,8 +11,31 @@ import {
   TextContainer,
 } from "../styles";
 
+// Function to calculate duration in years and months
+const calculateExperience = (startDate) => {
+  const start = new Date(startDate);
+  const end = new Date(); // Current date
+
+  const years = end.getFullYear() - start.getFullYear();
+  const months = end.getMonth() - start.getMonth();
+
+  let duration = "";
+  if (years > 0) {
+    duration += `${years} ${years === 1 ? "yr" : "yrs"}`;
+  }
+  if (months > 0) {
+    duration += ` ${months} ${months === 1 ? "mo" : "mos"}`;
+  }
+
+  return duration.trim();
+};
+
 const Experience = () => {
   const props = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 600 });
+
+  // Replace the static duration with calculated duration
+  const startDate = "Jan 2020"; 
+  const duration = calculateExperience(startDate);
 
   return (
     <Section style={props}>
@@ -33,7 +56,7 @@ const Experience = () => {
           <Text>
             Farmacia & Laboratorio Vip · Full-time
             <br />
-            Jan 2020 - Present · 4 yrs 7 mos
+            {startDate} · {duration}
             <br />
             Provincia de Buenos Aires, Argentina · On-site
           </Text>
